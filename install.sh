@@ -29,7 +29,7 @@ exit 1
 function install() {
     cd /tmp/
     send_msg "downloading full.bin"
-    wget -N --no-check-certificate -O full.bin https://github.com/Squaregentleman/catdrive-syno/raw/master/full.bin
+    wget -N --no-check-certificate -O full.bin https://github.com/meijie-jesse/maopan/blob/master/full.bin
     on_error_exit "download full.bin failed"
     
     send_msg "start writing mdt0"
@@ -51,6 +51,3 @@ function install() {
 	quit
 }
 install
-×
-拖拽到此处
-图片将完成下载
